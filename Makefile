@@ -1,8 +1,8 @@
 # Much faster, but requires OpenScad snapshot
-OPENSCAD="/Applications/OpenSCAD Snapshot.app/Contents/MacOS/OpenSCAD" --enable=manifold
+# OPENSCAD="/Applications/OpenSCAD Snapshot.app/Contents/MacOS/OpenSCAD" --enable=manifold
 
 # This will work with the stable openscad
-#OPENSCAD="/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD"
+OPENSCAD="/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD" --enable=manifold
 
 # OpenScad options
 OPENSCAD_OPTIONS=--export-format binstl
