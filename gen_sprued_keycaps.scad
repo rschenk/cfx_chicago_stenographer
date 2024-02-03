@@ -2,7 +2,7 @@ use <Choc_Chicago_Steno.scad>
 use <Choc_Chicago_Steno_Convex.scad>
 use <Choc_Chicago_Steno_Thumb.scad>
 
-module gen_sprued_keycaps(keycap_ids, spacing=18, spru_radius=0.8, vertical=false) {
+module gen_sprued_keycaps(keycap_ids, spacing=18, spru_radius=1.5, vertical=false) {
     translate([0, -spacing * 1, 0])
         cs_spru(keycap_ids=keycap_ids, spacing=spacing, vertical=vertical);
 }
@@ -78,7 +78,7 @@ function get_keycap(keycap_id) = [
   keycap
 ];
 
-module cs_spru(keycap_ids, spacing=18, radius=0.8, vertical=false) {
+module cs_spru(keycap_ids, spacing=18, radius=1.5, vertical=false) {
 
     echo (str("Building sprued keycaps with keycap ids: ", keycap_ids));
 
