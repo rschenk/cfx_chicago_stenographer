@@ -1,17 +1,22 @@
 <!-- omit from toc -->
 # Chicago Stenographer Keycaps - Optimized for JLCPCB 3D printing
 
-This fork combines multiple chicago stenographer keycaps with sprues into one file to get around the $1 minimum charge of JLCPCB.
+### The purpose of this fork
+
+This fork resizes the Chicago Stenographer keycaps to be the same size as the quirky Chosfox CFX keycaps (16.5x16.5mm). The original CS keycaps are the standard "choc size" of 17.5x16.5mm, so the keycaps in this fork are 1mm narrower in width. 
+
+Why? Because I designed my [Tern keyboard](https://github.com/rschenk/tern) spaced for CFX keycaps, mostly because I had them lying around and why not. Now I love that keyboard and wanted some Chicago Steno caps for it.
+
+### Prior forks
+
+This is forked from [infused-kim/kb_keycaps_chicago_stenographer](https://github.com/infused-kim/kb_keycaps_chicago_stenographer), which combines multiple chicago stenographer keycaps with sprues into one file to get around the $1 minimum charge of JLCPCB.
 
 If you like these keycaps after trying the 3D printed version, [consider buying original versions from the creator at asymplex.xyz](https://www.asymplex.xyz).
 
-> **Warning**
->
-> These keycap sets are still untested. I have placed my JLCPCB order and will remove this warning if everything goes well.
->
-> The original code for the 1.5u thumb keys produced keycaps with the wrong stem orientation. I have attempted to fix this problem, but JLCPCB still complains about areas that are too thin and will ask you if you want to take the risk of them not getting printed correctly when you order.
->
-> All other keycaps should not have problems though.
+
+### Printing at JLC
+
+I have successfully printed multiple batches of these keycaps at JLC using the MJF process described below and they came out good. One batch, the stems were a little bit oversized, but a few scrapes with an X-Acto knife and they fit in the switches perfectly. The other batches fit great right out of the box. I'm typing on them right now.
 
 <!-- omit from toc -->
 ## Table Of Contents
